@@ -1,4 +1,22 @@
-p{
+/*Comment - not visible in page*/
+/***************************************
+*
+* Author: Sosna 
+* Date: 23.01.2020
+*
+****************************************/
+
+/*Style all P tags*/
+
+#header p{
     font-size: 18px;
     color: violet;
+}
+
+
+/* Style all header tags */
+
+h1{
+
+    font-size: 44px;
 }
