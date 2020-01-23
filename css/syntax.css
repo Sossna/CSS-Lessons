@@ -1,19 +1,8 @@
-/* TARGETING ELEMENTS / TAGS */
-h2{
-font-size: 24px;
+/* CONFLICTS AND THE CASCADE| BOTTOM MOST RULE ALWAYS WINS */
+     span {
+color: blue;
+     }
 
-}
-
-#content-header{   /*for ID's */
-    font-size: 18px;
-    color: red;
-}
-
-span{               
-    display: block;
-    color: blue;
-}
-
-.deck{          /*for classes */
-     color: green;
-}           
+     span{
+color: red;
+     }
