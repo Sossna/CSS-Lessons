@@ -1,7 +1,27 @@
 p{
-    color: red !important;
+    color: red;
+    font-size: 14px;
+    font-weight: bold;
+    font-family: Arial;
 }
 
-#main-content p{
-    color: green;
+span{
+    color: red;
+    font-size: 14px;
+    font-weight: bold;
+    font-family: Arial;
+}
+
+a{
+    color: red;
+    font-size: 14px;
+    font-weight: bold;
+    font-family: Arial;
+}
+
+li{
+    color: red;
+    font-size: 14px;
+    font-weight: bold;
+    font-family: Arial;
 }
