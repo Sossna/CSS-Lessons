@@ -1,16 +1,7 @@
-span[class~="deck"]{  /*Symbol ~ oznacza, ze bierze pod uwagę wszystko co zaczyna sie na deck */
-    color: purple;
+a:hover{
+    color:red; /*:(dwukropek) oznacza Pseudo class np. keyword, hover itd */
 }
 
-div[id]{
-    background: grey;
+#main-content:hover{
+    background: green;
 }
-
-a[href^="http"]{
-    color: brown;
-}
-
-a[href$="pdf"]{         /*Symbol $ oznacza, że bierze pod uwagę wszystko co kończy się na "pdf" */
-    color: green;
-}
-
