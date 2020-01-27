@@ -1,4 +1,4 @@
-span[class~="deck"]{
+span[class~="deck"]{  /*Symbol ~ oznacza, ze bierze pod uwagę wszystko co zaczyna sie na deck */
     color: purple;
 }
 
@@ -6,6 +6,10 @@ div[id]{
     background: grey;
 }
 
-a[title="Search engine"]{
-    color: red;
+a[title]{
+    color: brown;
+}
+
+a[href$="pdf"]{         /*Symbol $ oznacza, że bierze pod uwagę wszystko co kończy się na "pdf" */
+    color: green;
 }
