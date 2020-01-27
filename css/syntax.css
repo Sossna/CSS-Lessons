@@ -6,10 +6,11 @@ div[id]{
     background: grey;
 }
 
-a[title]{
+a[href^="http"]{
     color: brown;
 }
 
 a[href$="pdf"]{         /*Symbol $ oznacza, że bierze pod uwagę wszystko co kończy się na "pdf" */
     color: green;
 }
+
