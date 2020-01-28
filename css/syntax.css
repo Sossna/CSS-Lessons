@@ -1,11 +1,12 @@
-#header p{
-    text-transform: capitalize;
+#header h1{
+    color: chocolate;
+}
+#header h2{
+    color: #567398; 
 }
 
-body{
-    text-transform: uppercase;
+#header{
+    background-color: antiquewhite;
+    background: antiquewhite /*pojedyncze background umożliwia wrzucanie nie tylko kolorów ale innych opcji */
 }
 
-body > p{ /*wszystkie tagi p pod tagiem body zostaną zmodyfikowane */
-    text-transform: none;
-}
