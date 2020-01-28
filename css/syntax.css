@@ -1,12 +1,12 @@
-#header h1{
-    color: chocolate;
-}
-#header h2{
-    color: #567398; 
+a{
+    color: crimson;
+    text-decoration: none;
+    font-weight: bold;
 }
 
-#header{
-    background-color: antiquewhite;
-    background: antiquewhite /*pojedyncze background umożliwia wrzucanie nie tylko kolorów ale innych opcji */
+a:hover{
+    color:darkmagenta;
+    text-decoration: underline;
+    background-color: aquamarine;
 }
 
