@@ -1,7 +1,7 @@
-article.featured-content{
-background: red;
+*{  /* symbol * jest tzw universal selector, wskazuje na wszystkie tagi */
+    margin: 0;
+    padding: 0;
+    color: black;
+
 }
 
-div.featured-content{
-    background: green;
-}
