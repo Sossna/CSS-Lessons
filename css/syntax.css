@@ -1,9 +1,14 @@
 
-.static-width{
-    width: 300px;
+#banner{
+    background-color: #606060;
+    width: 100%;
     height: 300px;
-    background: url(https://www.smallbizgenius.net/wp-content/uploads/2019/11/smallbizgenius_favicon.png) no-repeat top center;
-    background-color: #606060;  
-    background-size: 100px;
+    background-image: url(https://icm.aexp-static.com/shopamex/img/global-images/lgo-shop-small-stroke2x.png), url(https://www.smallbizgenius.net/wp-content/uploads/2019/11/smallbizgenius_favicon.png);
+    background-repeat: no-repeat;
+    background-position: center, top left;
+    background-size: 300px, 100%; 
 }
 
+/* https://icm.aexp-static.com/shopamex/img/global-images/lgo-shop-small-stroke2x.png */
+/* https://www.smallbizgenius.net/wp-content/uploads/2019/11/smallbizgenius_favicon.png */  
+/* pierwszy link jest na wierzchu a drugi na spodzie */
