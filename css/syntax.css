@@ -1,47 +1,12 @@
-.box{
-    padding: 20px;
-    margin: 20px;
-    float: left;
-
-    /*
-    border-top-width: 10px;
-    border-top-style: solid;
-    border-top-color: blue;
-    */
-    /*border-top: 10px solid blue;*/
-
+.block {
+    padding: 10px;
+    margin: 10px;
+    border: 1px solid #000;
 }
 
-.dashed{
-    border: 12px blue dashed;
-
+.inline {
+    padding: 10px;
+    margin: 10px;
+    border: 1px solid #000;
+    display: inline-block;
 }
-
-.dotted{
-    border: 12px blue dotted;
-}
-
-.double{
-    border: 12px blue double;
-}
-
-.groove{
-    border: 12px blue groove;
-}
-
-.inset{
-    border: 12px blue inset;
-}
-
-.outset{
-    border: 12px blue outset;
-}
-
-.ridge{
-    border: 12px blue ridge;
-}
-
-.solid{
-    border: 12px blue solid;
-}
-    
